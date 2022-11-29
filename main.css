@@ -446,6 +446,7 @@ footer * {
 }
 
 .products {
+  margin: 0 13rem;
   margin-top: 8rem;
 
   display: flex;
@@ -462,6 +463,9 @@ footer * {
   border-radius: 1.9rem;
 
   padding: 2.5rem 4rem;
+
+  margin: 2rem 4rem;
+
   gap: 2rem;
 
   max-width: fit-content;
@@ -608,6 +612,11 @@ footer * {
 }
 
 @media (max-width: 1200px) {
+  .products {
+    margin: 0;
+    margin-top: 8rem;
+  }
+
   .main-product .left img {
     width: 100%;
   }
